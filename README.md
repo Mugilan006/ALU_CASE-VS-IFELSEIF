@@ -89,6 +89,7 @@ Select “Don’t include any libraries (verilog design)” from “New cds.lib 
 We are simulating a verilog design without using any libraries
 
 Click “OK” in the “nclaunch: Open Design Directory” window, as shown in the figure below
+![WhatsApp Image 2025-11-12 at 11 06 00_ce909e23](https://github.com/user-attachments/assets/fee91ccc-d381-4b96-95d1-135c9ffedacc)
 
 #### Fig 2: Selection of Don’t include any libraries
 An ‘NCLaunch window’ appears as shown in the figure below
@@ -98,6 +99,10 @@ Left side, you can see the HDL files. The right side of the window has Worklib a
 Worklib is the directory where all the compiled codes are stored, while Snapshot will have the output of elaboration, which in turn goes for simulation.
 
 To perform the function simulation, the following three steps are involved: Compilation, Elaboration and Simulation.
+![WhatsApp Image 2025-11-12 at 11 09 38_37943453](https://github.com/user-attachments/assets/b8b64b1c-99ba-4395-8285-e622bac6b5fe)
+
+![WhatsApp Image 2025-11-12 at 11 13 09_6a5bf670](https://github.com/user-attachments/assets/e74f8683-4e97-46e0-aa85-4a93fc8c73f5)
+
 
 #### Fig 3: Nclaunch Window
 
@@ -120,6 +125,10 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile filename.v
 Left side select the file and in Tools: launch verilog compiler with current selection will get enable. Click it to compile the code
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+![WhatsApp Image 2025-11-12 at 10 22 36_25a3fae4](https://github.com/user-attachments/assets/68dee69e-2154-429f-98ab-050ac8db641b)
+
+![WhatsApp Image 2025-11-12 at 11 13 59_29f468fd](https://github.com/user-attachments/assets/3f5f5bf8-c5b6-4482-8047-9364cb2a7bf3)
+
 
 #### Fig 4: Compiled database in WorkLib
 After compilation, it will come under worklib. You can see on the right side window
@@ -150,6 +159,9 @@ Outputs: Elaborate database updated in the mapped library if successful, generat
 5.It also establishes net connectivity and prepares all of this for simulation
 
 After elaboration, the file will come under snapshot. Select the test bench and simulate it.
+![WhatsApp Image 2025-11-12 at 10 22 36_8d40d833](https://github.com/user-attachments/assets/5b304673-00d1-44b3-9115-044e196623aa)
+
+![WhatsApp Image 2025-11-12 at 11 14 16_8f6d85f8](https://github.com/user-attachments/assets/8ee1926c-7066-444d-b648-876ec492a9c4)
 
 #### Fig 5: Elaboration Launch Option
 
@@ -164,8 +176,15 @@ Simulations allow dumping design and test bench signals into a waveform
 
 Steps for simulation – Run the simulation command with simulator options
 
-#### Fig 6: Design Browser window for simulation
+<img width="1919" height="1079" alt="Screenshot 2025-10-14 103324" src="https://github.com/user-attachments/assets/d9f74797-bcd9-486a-9d08-d01ea51a60eb" />
+<img width="1919" height="1078" alt="Screenshot 2025-10-14 105255" src="https://github.com/user-attachments/assets/35de09a5-9079-410f-8f3c-89a344a14ab3" />
 
+
+#### Fig 6: Design Browser window for simulation
+<img width="1919" height="1079" alt="Screenshot 2025-10-14 105403" src="https://github.com/user-attachments/assets/96afe693-0044-4634-a8c4-4eb51b10e3e8" />
+#### USING CASE
+<img width="1919" height="1079" alt="Screenshot 2025-10-14 103505" src="https://github.com/user-attachments/assets/bfc43ebe-56f3-4d8a-8273-5baf6ad885d8" />
+#### USING IFELSEIF CONDITION
 #### Fig 7: Simulation Waveform Window
 
 Synthesis requires three files as follows,
@@ -187,14 +206,34 @@ The Liberty files are present in the library path,
 • The tool used for Synthesis is “Genus”. Hence, type “genus -gui” to open the tool.
 
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist. Or use source run.tcl command in the terminal window to view the netlist, and a log file will be created in the working folder.
+<img width="1580" height="807" alt="image" src="https://github.com/user-attachments/assets/573461e8-7f74-4fc1-b315-7eb015f24cda" />
+
+#### USING CASE
+<img width="1644" height="855" alt="image" src="https://github.com/user-attachments/assets/ac22d9bd-e3f1-4949-92c4-140b2549a3c9" />
+
+#### USING IFELSEIF CONDITION
 
 #### Fig 8: Synthesis RTL Schematic using case and ifelseif construct
+![WhatsApp Image 2025-11-12 at 11 16 16_ef8edb0e](https://github.com/user-attachments/assets/868e7c54-0329-4928-8057-115f68022c76)
+CASE
+![WhatsApp Image 2025-11-12 at 11 17 54_7e6b166f](https://github.com/user-attachments/assets/1a5afdbd-ed6a-4806-9390-4070953a5998)
+IFELSEIF
 
 #### Fig 9: Area report of case and ifelseif construct
+![WhatsApp Image 2025-11-12 at 11 16 45_a36b04ea](https://github.com/user-attachments/assets/b48ace6c-5cf7-4dcc-8b43-ab23dab0be7a)
+CASE
+![WhatsApp Image 2025-11-12 at 11 19 25_059531bb](https://github.com/user-attachments/assets/7470771f-6b5b-47cc-bdd2-96a2e2586c94)
+IFELSEIF
 
 #### Fig 10: Power Report of case and ifelseif construct
+![WhatsApp Image 2025-11-12 at 11 17 08_b0744d66](https://github.com/user-attachments/assets/b8fe5803-0658-453a-8b5a-e9e3aaa222ba)
+CASE
+![WhatsApp Image 2025-11-12 at 11 18 54_d098a650](https://github.com/user-attachments/assets/61da7021-4425-4d97-a254-e00d206d9c8a)
+IFELSEIF
 
 #### Fig 11: Timing Report of case and ifelseif construct
+
+<img width="1317" height="631" alt="image" src="https://github.com/user-attachments/assets/3ff52351-fcfc-4928-ab2c-d2a1e57c8b14" />
 
 #### Fig 12: Tabulate Area,Power and Timing Report Comparision of ALU using case and ifelseif construct
 
